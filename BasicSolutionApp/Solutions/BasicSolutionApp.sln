@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{DF30D8FB-84E8-46EC-ABB7-40572186B44F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F0511618-8CC8-4FC6-9217-B43BC44CABD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F0BC0D87-1E59-4DA5-BD62-B5B4158855D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A49D00DF-8AE6-49AB-A446-A692990B93EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{B9D33A39-7616-4259-862E-722D3A12DE3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{C855B741-07AE-4A7C-83A9-EC10914B9327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{32E9FFF7-41D4-4B0B-83E8-0ACC4DA048B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{C606C899-CBC1-42C4-A4CA-2A04F6E44A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMASOL.Domain", "..\Projects\Domain\EMASOL.Domain\EMASOL.Domain.csproj", "{0D9E1110-1417-47B5-ABD8-ABC5D9AB680F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMASOL.Application", "..\Projects\Applications\EMASOL.Application\EMASOL.Application.csproj", "{83E48F6E-C063-4557-9306-A1D014BD875B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3F4A9FE0-CB2C-471C-B51B-43A1175BE511}"
+	ProjectSection(SolutionItems) = preProject
+		Information.txt = Information.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMASOL.Infrastructure", "..\Projects\Infrastructure\EMASOL.Infrastructure\EMASOL.Infrastructure.csproj", "{B6D1C1F5-AEEE-436F-9B2C-8CFC3B022F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMASOL.Infrastructure.Notification", "..\Projects\Infrastructure\EMASOL.Infrastructure.Notification\EMASOL.Infrastructure.Notification.csproj", "{8BE33558-14B9-4252-B3CE-B4559BB78D78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D9E1110-1417-47B5-ABD8-ABC5D9AB680F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9E1110-1417-47B5-ABD8-ABC5D9AB680F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9E1110-1417-47B5-ABD8-ABC5D9AB680F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9E1110-1417-47B5-ABD8-ABC5D9AB680F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E48F6E-C063-4557-9306-A1D014BD875B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E48F6E-C063-4557-9306-A1D014BD875B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E48F6E-C063-4557-9306-A1D014BD875B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E48F6E-C063-4557-9306-A1D014BD875B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D1C1F5-AEEE-436F-9B2C-8CFC3B022F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D1C1F5-AEEE-436F-9B2C-8CFC3B022F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D1C1F5-AEEE-436F-9B2C-8CFC3B022F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D1C1F5-AEEE-436F-9B2C-8CFC3B022F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE33558-14B9-4252-B3CE-B4559BB78D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE33558-14B9-4252-B3CE-B4559BB78D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE33558-14B9-4252-B3CE-B4559BB78D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE33558-14B9-4252-B3CE-B4559BB78D78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9D33A39-7616-4259-862E-722D3A12DE3A} = {A49D00DF-8AE6-49AB-A446-A692990B93EE}
+		{C855B741-07AE-4A7C-83A9-EC10914B9327} = {A49D00DF-8AE6-49AB-A446-A692990B93EE}
+		{32E9FFF7-41D4-4B0B-83E8-0ACC4DA048B5} = {A49D00DF-8AE6-49AB-A446-A692990B93EE}
+		{C606C899-CBC1-42C4-A4CA-2A04F6E44A5A} = {F0BC0D87-1E59-4DA5-BD62-B5B4158855D2}
+		{0D9E1110-1417-47B5-ABD8-ABC5D9AB680F} = {F0511618-8CC8-4FC6-9217-B43BC44CABD2}
+		{83E48F6E-C063-4557-9306-A1D014BD875B} = {DF30D8FB-84E8-46EC-ABB7-40572186B44F}
+		{B6D1C1F5-AEEE-436F-9B2C-8CFC3B022F9D} = {F0BC0D87-1E59-4DA5-BD62-B5B4158855D2}
+		{8BE33558-14B9-4252-B3CE-B4559BB78D78} = {F0BC0D87-1E59-4DA5-BD62-B5B4158855D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41C5E194-A9EB-4133-9144-6222D60BECE2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+Sources, Referance document and projects: 
+ - https://medium.com/kodcular/clean-architecture-nedir-d5da08bd2f68
+ - https://github.com/jasontaylordev/CleanArchitecture
+ - https://github.com/jasontaylordev/NorthwindTraders/tree/master/Src
